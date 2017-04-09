@@ -46,10 +46,3 @@ def setToFile(links, file):
     deleteFileContents(file)
     for link in sorted(links):
         appendToFile(file, link)
-
-
-
-
-
-createProjectDirectory('helloWorld')
-createDataFiles('helloWorld', 'https://www.youtube.com/watch?v=pjkZCQTfneQ')
