@@ -16,8 +16,8 @@ class Spider:
         Spider.projectName = projectName
         Spider.baseUrl = baseUrl
         Spider.domainName = domainName
-        Spider.queueFile = spider.projectName + '/queue.txt'
-        Spider.crawledFile = spider.projectName + '/crawled.txt'
+        Spider.queueFile = Spider.projectName + '/queue.txt'
+        Spider.crawledFile = Spider.projectName + '/crawled.txt'
         self.boot()
         self.crawlPage('First spider', Spider.baseUrl)
 
